@@ -11,3 +11,4 @@ RUN add-apt-repository \
 RUN apt-get update  -qq \
     && apt-get install docker-ce=17.12.1~ce-0~debian -y
 RUN usermod -aG docker jenkins
+/*https://medium.com/@manav503/how-to-build-docker-images-inside-a-jenkins-container-d59944102f30*/
